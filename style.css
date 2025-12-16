@@ -869,10 +869,7 @@ body {
     font-size: 32px;
   }
 }
-/* RESPONSIVE */
-/* ===============================
-   MOBILE HERO – FINAL POLISH
-   =============================== */
+
 @media (max-width: 768px) {
 
   /* Reduce header clutter */
@@ -963,13 +960,8 @@ body {
     text-align: center;
   }
 }
-/* END OF MOBILE HERO STYLES */ 
-/* ===============================
-   MOBILE HEADER SEARCH – IMAGE 1 STYLE
-   =============================== */
-@media (max-width: 768px) {
 
-  /* HEADER STACK */
+@media (max-width: 768px) {
   .header {
     flex-direction: column;
     gap: 14px;
@@ -1078,9 +1070,7 @@ body {
     display: none;
   }
 
-/* ===============================
-   MOBILE HORIZONTAL PRODUCT SCROLL
-   =============================== */
+
 @media (max-width: 768px) {
 
   /* Bestseller product row becomes horizontal */
@@ -1150,9 +1140,7 @@ body {
 
 
 }
-/* ===============================
-   MOBILE GIFT SECTION – FINAL FIX
-   =============================== */
+
 @media (max-width: 768px) {
 
   /* REMOVE BIG IMAGE COMPLETELY */
@@ -1193,9 +1181,7 @@ body {
     border-radius: 4px;
   }
 }
-/* ===============================
-   MOBILE: HIDE DARK PROMO CARD
-   =============================== */
+
 @media (max-width: 768px) {
 
   .promo-card.promo-dark {
@@ -1203,9 +1189,7 @@ body {
   }
 
 }
-/* ===============================
-   MOBILE: GIFTS HORIZONTAL SCROLL
-   =============================== */
+
 @media (max-width: 768px) {
 
   .gifts-grid {
@@ -1234,11 +1218,7 @@ body {
   }
 
 }
-/* ===============================
-   SHARE MOMENT – MOBILE ONLY
-   =============================== */
 
-/* Hide by default (desktop & tablet) */
 .share-moment-section {
   display: none;
 }
@@ -1262,9 +1242,7 @@ body {
     background: #e5e5e5;
   }
 }
-/* ===============================
-   MOBILE: TESTIMONIALS HORIZONTAL
-   =============================== */
+
 @media (max-width: 768px) {
 
   .testimonial-grid {
@@ -1298,9 +1276,7 @@ body {
     gap: 36px 40px;
   }
 }
-/* ===============================
-   MOBILE: FINAL SECTION ORDER (LOCKED)
-   =============================== */
+
 @media (max-width: 768px) {
 
   .page-content {
@@ -1395,9 +1371,7 @@ div {
 .ethos-future-section {
   padding: 0 !important;
 }
-/* ===============================
-   SCROLL REVEAL ANIMATION
-   =============================== */
+
 .reveal-hidden {
   opacity: 0;
   transform: translateY(40px);
@@ -1409,9 +1383,7 @@ div {
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
-/* ===============================
-   HORIZONTAL SCROLL HINT (MOBILE)
-   =============================== */
+
 @media (max-width: 768px) {
 
   .product-grid::after,
