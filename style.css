@@ -1069,7 +1069,16 @@ body {
   .category-tabs {
     display: none;
   }
+.mobile-categories {
+  display: none;
+}
 
+/* Show only on mobile */
+@media (max-width: 768px) {
+  .mobile-categories {
+    display: flex;
+  }
+}
 
 @media (max-width: 768px) {
 
